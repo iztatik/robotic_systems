@@ -1,0 +1,8 @@
+# Request
+trajectory_msgs/JointTrajectory trajectory
+---
+# Response
+trajectory_msgs/JointTrajectoryPoint final_point
+---
+# Feedback
+trajectory_msgs/JointTrajectoryPoint actual_point

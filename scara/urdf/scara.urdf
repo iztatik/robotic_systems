@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+
+<robot name="Scara">
+    
+    <!-- Linkages  -->
+    <link name="lk0">
+    	<visual>
+    	    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    	    <geometry>
+		<mesh filename="package://scara/meshes/lk_0.stl" scale="1.0 1.0 1.0" />
+    	    </geometry>
+    	    <material name="black">
+    	    	<color rgba="0.4 0.4 0.4 1.0"/>
+    	    </material>
+    	</visual>
+    	<inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1"/>
+            <inertia ixx="1"  ixy="0"  ixz="0" iyy="1" iyz="0" izz="1" />
+       </inertial>
+    </link>
+    
+    <link name="lk1">
+    	<visual>
+    	    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    	    <geometry>
+    	    	<mesh filename="package://scara/meshes/lk_1.stl" scale="1.0 1.0 1.0" />
+    	    </geometry>
+    	    <material name="yellow">
+    	    	<color rgba="1.0 1.0 0.0 1.0"/>
+    	    </material>
+    	</visual>
+    	<inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1"/>
+            <inertia ixx="1"  ixy="0"  ixz="0" iyy="1" iyz="0" izz="1" />
+       </inertial>
+    </link>
+    
+    <link name="lk2">
+    	<visual>
+    	    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    	    <geometry>
+    	    	<mesh filename="package://scara/meshes/lk_2.stl" scale="1.0 1.0 1.0" />
+    	    </geometry>
+    	    <material name="yellow">
+    	    	<color rgba="1.0 1.0 0.0 1.0"/>
+    	    </material>
+    	</visual>
+    	<inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1"/>
+            <inertia ixx="1"  ixy="0"  ixz="0" iyy="1" iyz="0" izz="1" />
+       </inertial>
+    </link>
+    
+    <link name="lk3">
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1"/>
+            <inertia ixx="1"  ixy="0"  ixz="0" iyy="1" iyz="0" izz="1" />
+        </inertial>
+    </link>
+        
+   
+    
+    <link name="lk4">
+    	<visual>
+    	    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    	    <geometry>
+    	    	<mesh filename="package://scara/meshes/lk_3.stl" scale="1.0 1.0 1.0" />
+    	    </geometry>
+    	    <material name="silver">
+    	    	<color rgba="0.8 0.8 0.8 1.0"/>
+    	    </material>
+    	</visual>
+    	<inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="1"/>
+            <inertia ixx="1"  ixy="0"  ixz="0" iyy="1" iyz="0" izz="1" />
+       </inertial>
+    </link>
+    
+    <!-- Joints -->
+    <joint name="q1" type="revolute">
+    	<parent link="lk0"/>
+    	<child link="lk1"/>
+    	<axis xyz="0.0 0.0 1.0"/>
+    	<limit lower="-3.1416" upper="3.1416" effort="1.0" velocity="1.0"/>
+    	<origin xyz="0.0 0.0 0.5" rpy="0.0 0.0 0.0" />
+    </joint>
+    
+    <joint name="q2" type="revolute">
+    	<parent link="lk1"/>
+    	<child link="lk2"/>
+    	<axis xyz="0.0 0.0 1.0"/>
+    	<limit lower="-3.1416" upper="3.1416" effort="1.0" velocity="1.0"/>
+    	<origin xyz="0.5 0.0 0.0" rpy="0.0 0.0 0.0" />
+    </joint>
+    
+    <joint name="q3" type="prismatic">
+    	<parent link="lk2"/>
+    	<child link="lk3"/>
+    	<axis xyz="0.0 0.0 1.0"/>
+    	<limit lower="0.0" upper="0.47" effort="1.0" velocity="1.0"/>
+    	<origin xyz="0.5 0.0 0.0" rpy="3.1416 0.0 0.0" />
+    </joint>
+    
+    <joint name="q4" type="revolute">
+    	<parent link="lk3"/>
+    	<child link="lk4"/>
+    	<axis xyz="0.0 0.0 1.0"/>
+    	<limit lower="-3.1416" upper="3.1416" effort="1.0" velocity="1.0"/>
+    	<origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0" />
+    </joint>
+
+</robot>
+
+
+
+
+
+
+
+
+
+
+
