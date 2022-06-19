@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating py_pkg.egg-info
+writing py_pkg.egg-info/PKG-INFO
+writing dependency_links to py_pkg.egg-info/dependency_links.txt
+writing entry points to py_pkg.egg-info/entry_points.txt
+writing requirements to py_pkg.egg-info/requires.txt
+writing top-level names to py_pkg.egg-info/top_level.txt
+writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+reading manifest file 'py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages/site.py
+Creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages/py-pkg.egg-link (link to .)
+Installing client script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+Installing joint script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+Installing node script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+Installing parameters script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+Installing publisher script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+Installing server script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+Installing subscriber script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+
+Installed /home/iztatik/ros2_ws/src/py_pkg/build/py_pkg
+running install_data
+creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index
+creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index
+creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index/packages
+copying resource/py_pkg -> /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/py_pkg

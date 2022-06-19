@@ -1,0 +1,9 @@
+[console_scripts]
+client = py_pkg.05_client:main
+joint = py_pkg.my_joint_publisher:main
+node = py_pkg.01_node:main
+parameters = py_pkg.06_parameters:main
+publisher = py_pkg.02_publisher:main
+server = py_pkg.04_server:main
+subscriber = py_pkg.03_subscriber:main
+

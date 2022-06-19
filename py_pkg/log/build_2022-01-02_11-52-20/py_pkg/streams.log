@@ -1,0 +1,31 @@
+[0.888s] Invoking command in '/home/iztatik/ros2_ws/src/py_pkg/build/py_pkg': PYTHONPATH=/home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg --editable --build-directory /home/iztatik/ros2_ws/src/py_pkg/build/py_pkg/build --no-deps install_data --install-dir /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg
+[1.035s] running develop
+[1.158s] running egg_info
+[1.158s] creating py_pkg.egg-info
+[1.158s] writing py_pkg.egg-info/PKG-INFO
+[1.159s] writing dependency_links to py_pkg.egg-info/dependency_links.txt
+[1.159s] writing entry points to py_pkg.egg-info/entry_points.txt
+[1.159s] writing requirements to py_pkg.egg-info/requires.txt
+[1.159s] writing top-level names to py_pkg.egg-info/top_level.txt
+[1.160s] writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+[1.187s] reading manifest file 'py_pkg.egg-info/SOURCES.txt'
+[1.187s] writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+[1.217s] running build_ext
+[1.218s] Creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages/site.py
+[1.278s] Creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages/py-pkg.egg-link (link to .)
+[1.279s] Installing client script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.280s] Installing joint script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.280s] Installing node script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.280s] Installing parameters script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.280s] Installing publisher script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.281s] Installing server script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.281s] Installing subscriber script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg
+[1.281s] 
+[1.281s] Installed /home/iztatik/ros2_ws/src/py_pkg/build/py_pkg
+[1.281s] running install_data
+[1.281s] creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index
+[1.337s] creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index
+[1.347s] creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index/packages
+[1.388s] copying resource/py_pkg -> /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index/packages
+[1.389s] copying package.xml -> /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/py_pkg
+[1.442s] Invoked command in '/home/iztatik/ros2_ws/src/py_pkg/build/py_pkg' returned '0': PYTHONPATH=/home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg --editable --build-directory /home/iztatik/ros2_ws/src/py_pkg/build/py_pkg/build --no-deps install_data --install-dir /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg

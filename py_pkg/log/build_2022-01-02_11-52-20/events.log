@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.001003] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.100075] (-) TimerEvent: {}
+[0.200668] (-) TimerEvent: {}
+[0.301032] (-) TimerEvent: {}
+[0.401678] (-) TimerEvent: {}
+[0.502079] (-) TimerEvent: {}
+[0.602459] (-) TimerEvent: {}
+[0.702714] (-) TimerEvent: {}
+[0.802989] (-) TimerEvent: {}
+[0.824322] (py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/iztatik/ros2_ws/src/py_pkg/install/py_pkg', '--editable', '--build-directory', '/home/iztatik/ros2_ws/src/py_pkg/build/py_pkg/build', '--no-deps', 'install_data', '--install-dir', '/home/iztatik/ros2_ws/src/py_pkg/install/py_pkg'], 'cwd': '/home/iztatik/ros2_ws/src/py_pkg/build/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iztatik', 'LC_TIME': 'es_MX.UTF-8', 'SSH_AGENT_PID': '1987', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/iztatik/ros2_ws/install/scara_interfaces/lib:/home/iztatik/ros2_ws/install/custom_interfaces/lib:/home/iztatik/dev_ws/install/my_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/iztatik', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/iztatik/ros2_ws/src/py_pkg/py_pkg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1761', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/iztatik/ros2_ws/install:/home/iztatik/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'iztatik', 'JOURNAL_STREAM': '8:53897', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'iztatik', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/iztatik/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/y720:@/tmp/.ICE-unix/2030,unix/y720:/tmp/.ICE-unix/2030', 'INVOCATION_ID': '326f1d831be9462abbf9322dccf1b469', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/646e6ea8_e2c0_45c6_a99a_f2f148704562', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/iztatik/ros2_ws/install/scara_pkg:/home/iztatik/ros2_ws/install/scara_interfaces:/home/iztatik/ros2_ws/install/py_pkg:/home/iztatik/ros2_ws/install/custom_interfaces:/home/iztatik/ros2_ws/install/cpp_pkg:/home/iztatik/dev_ws/install/py_pkg:/home/iztatik/dev_ws/install/my_interfaces:/home/iztatik/dev_ws/install/cpp_pkg:/opt/ros/galactic', 'CONDA_PYTHON_EXE': '/home/iztatik/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/iztatik/ros2_ws/src/py_pkg/build/py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/iztatik/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages:/home/iztatik/ros2_ws/build/scara_pkg:/home/iztatik/ros2_ws/install/scara_pkg/lib/python3.8/site-packages:/home/iztatik/ros2_ws/install/scara_interfaces/lib/python3.8/site-packages:/home/iztatik/ros2_ws/build/py_pkg:/home/iztatik/ros2_ws/install/py_pkg/lib/python3.8/site-packages:/home/iztatik/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/iztatik/dev_ws/build/py_pkg:/home/iztatik/dev_ws/install/py_pkg/lib/python3.8/site-packages:/home/iztatik/dev_ws/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/iztatik/ros2_ws/install/scara_interfaces:/home/iztatik/ros2_ws/install/custom_interfaces:/home/iztatik/ros2_ws/install/cpp_pkg:/home/iztatik/dev_ws/install/my_interfaces:/home/iztatik/dev_ws/install/cpp_pkg'}, 'shell': False}
+[0.903111] (-) TimerEvent: {}
+[1.003400] (-) TimerEvent: {}
+[1.035469] (py_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.103512] (-) TimerEvent: {}
+[1.158939] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.159097] (py_pkg) StdoutLine: {'line': b'creating py_pkg.egg-info\n'}
+[1.159353] (py_pkg) StdoutLine: {'line': b'writing py_pkg.egg-info/PKG-INFO\n'}
+[1.159465] (py_pkg) StdoutLine: {'line': b'writing dependency_links to py_pkg.egg-info/dependency_links.txt\n'}
+[1.159565] (py_pkg) StdoutLine: {'line': b'writing entry points to py_pkg.egg-info/entry_points.txt\n'}
+[1.159723] (py_pkg) StdoutLine: {'line': b'writing requirements to py_pkg.egg-info/requires.txt\n'}
+[1.159823] (py_pkg) StdoutLine: {'line': b'writing top-level names to py_pkg.egg-info/top_level.txt\n'}
+[1.160800] (py_pkg) StdoutLine: {'line': b"writing manifest file 'py_pkg.egg-info/SOURCES.txt'\n"}
+[1.187774] (py_pkg) StdoutLine: {'line': b"reading manifest file 'py_pkg.egg-info/SOURCES.txt'\n"}
+[1.188333] (py_pkg) StdoutLine: {'line': b"writing manifest file 'py_pkg.egg-info/SOURCES.txt'\n"}
+[1.203617] (-) TimerEvent: {}
+[1.218276] (py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.218570] (py_pkg) StdoutLine: {'line': b'Creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages/site.py\n'}
+[1.279037] (py_pkg) StdoutLine: {'line': b'Creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/python3.8/site-packages/py-pkg.egg-link (link to .)\n'}
+[1.280258] (py_pkg) StdoutLine: {'line': b'Installing client script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.280536] (py_pkg) StdoutLine: {'line': b'Installing joint script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.280789] (py_pkg) StdoutLine: {'line': b'Installing node script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.280976] (py_pkg) StdoutLine: {'line': b'Installing parameters script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.281247] (py_pkg) StdoutLine: {'line': b'Installing publisher script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.281530] (py_pkg) StdoutLine: {'line': b'Installing server script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.281798] (py_pkg) StdoutLine: {'line': b'Installing subscriber script to /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/lib/py_pkg\n'}
+[1.281936] (py_pkg) StdoutLine: {'line': b'\n'}
+[1.282051] (py_pkg) StdoutLine: {'line': b'Installed /home/iztatik/ros2_ws/src/py_pkg/build/py_pkg\n'}
+[1.282159] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.282265] (py_pkg) StdoutLine: {'line': b'creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index\n'}
+[1.304080] (-) TimerEvent: {}
+[1.337997] (py_pkg) StdoutLine: {'line': b'creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index\n'}
+[1.347636] (py_pkg) StdoutLine: {'line': b'creating /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[1.388604] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[1.389350] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/iztatik/ros2_ws/src/py_pkg/install/py_pkg/share/py_pkg\n'}
+[1.404288] (-) TimerEvent: {}
+[1.442929] (py_pkg) CommandEnded: {'returncode': 0}
+[1.504473] (-) TimerEvent: {}
+[1.605388] (-) TimerEvent: {}
+[1.706278] (-) TimerEvent: {}
+[1.782747] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[1.785974] (-) EventReactorShutdown: {}
